@@ -1,0 +1,41 @@
+body{
+    background-color: #3C3B31;
+    color: #EFE6DE;
+}
+@font-face {
+    font-family: rustfont;
+    src: url(fonts/Rust.ttf);
+  }
+.main_container{
+    max-width: 1080px;
+    margin: 5rem auto;
+}
+.rustitle{
+    font-size:12rem;
+    text-align:center;
+    font-family: rustfont;
+    display: flex;
+}
+.rustomato-logo{
+    display:flex;
+    justify-content: center;
+    margin: 3rem;
+}
+.end-title{
+    color:#B1412F;
+}
+/* The animation code */
+@keyframes blink {
+    from {opacity: 0.2;}
+    to {opacity: 1;}
+  }
+/*end*/
+.soon{
+    font-size:3rem;
+    float:right;
+    font-family: rustfont;
+    animation-name:blink;
+    animation-duration:1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
